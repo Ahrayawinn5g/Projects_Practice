@@ -48,7 +48,7 @@ h2 {
 
 main .sidebar {
     background-color: #e63946;
-    flex: 1 300px;
+    flex: 1 2 300px;
     border: 2px solid white;
 }
 
