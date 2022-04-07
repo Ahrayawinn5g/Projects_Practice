@@ -145,7 +145,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-
 }
 
 .panel {
@@ -158,7 +157,6 @@ body {
     flex-direction: column;
     text-align: center;
     text-transform: uppercase;
-
 }
 
 .pricing-plan {
@@ -191,7 +189,7 @@ body {
     font-size: 12px;
     line-height: 1.5;
     padding: 15px 0;
-    border-top: 1px solid #e1f1ff;
+    border: 1px solid #e1f1ff;
 }
 
 .pricing-features-item:last-child {
@@ -206,14 +204,14 @@ body {
 }
 
 .pricing-button {
-    border: 1px solid #9dd1ff;
+    border: 1px solid #60a9ff;
     border-radius: 10px;
     color: #348efe;
     display: inline-block;
     padding: 15px 35px;
     text-decoration: none;
     margin: 25px 0;
-    transition: background-color 200ms ease-in-out;
+    transition: background-color 200ms ease-in;
 }
 
 .pricing-button:hover,
@@ -236,14 +234,14 @@ body {
     .panel {
         flex-direction: row;
     }
+}
 
-    .pricing-plan {
-        border-bottom: none;
-        border-right: 1px solid #e1f1ff;
-        padding: 25px 50px;
-    }
+.pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    padding: 25px 50px;
+}
 
-    .pricing-plan:last-child {
-        border-right: none;
-    }
+.pricing-plan:last-child {
+    border-right: none;
 }
