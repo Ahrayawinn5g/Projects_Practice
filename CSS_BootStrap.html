@@ -15,7 +15,9 @@
 
 <body>
     <div class="container">
-        <h1>Monkey D Luffy</h1>
+        <h1 class="display-1 text-center text-primary">Monkey D Luffy</h1>
+        <h2 class="display-4">Buttons <span class="badge rounded-pill bg-primary">New</span></h2>
+        <span class="badge rounded-pill bg-success">New</span>
         <button type="button" class="btn btn-primary">Primary</button>
         <button type="button" class="btn btn-danger">Danger</button>
         <button type="button" class="btn btn-warning">Warning</button>
@@ -23,18 +25,62 @@
         <button type="button" class="btn btn-outline-dark btn-lg">Dark</button>
         <button type="button" class="btn btn-success btn-sm">Success</button>
         <button type="button" class="btn btn-success" disabled>Success</button>
+        <button type="button" class="btn btn-primary">Notifications<span class="badge badge-primary">9+</span></button>
 
-        <p>Monkey D. Luffy, also known as " Straw Hat Luffy" and commonly as "Straw Hat",[7] is the main protagonist of
+        <h3>Button Groups</h3>
+        <div class="btn-group" role="group" aria-label="Button Groups">
+            <button type="button" class="btn btn-warning">Left</button>
+            <button type="button" class="btn btn-warning">Middle</button>
+            <button type="button" class="btn btn-warning">Right</button>
+
+        </div>
+
+        <h3>Alerts</h3>
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert check it out!
+        </div>
+
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <h4 class="alert-heading">OH NO!</h4>
+            You're about to end the world as we know it!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+            </button>
+        </div>
+
+        <h2 class="display-4">Luffy's Bio/typography</h2>
+        <p class="lead text-primary">Monkey D. Luffy, also known as " Straw Hat Luffy" and commonly as "Straw Hat",[7]
+            is
+            the main
+            protagonist
+            of
             the manga and anime, One Piece. He is the founder and captain of the increasingly infamous and powerful
-            Straw Hat Pirates, as well as one of its top fighters.[25] His lifelong dream is to become the Pirate King
+            Straw Hat Pirates, as well as one of its top fighters.[25] His lifelong dream is to become the Pirate
+            King
             by finding the legendary treasure left behind by the late Gol D. Roger.[26] He believes that being the
             Pirate King means having the most freedom in the world.[27]</p>
-        <p>Born in Foosha Village, Luffy accidentally ate the Gomu Gomu no Mi at age 7, which turned his body into
-            rubber.[28] He met "Red-Haired" Shanks, who gave Luffy the very Straw Hat that has become Luffy's signature
-            accessory, having gifted it to the boy as part of a promise for them to meet again someday. Luffy is the son
-            of the Revolutionary leader Monkey D. Dragon,[29] the grandson of the Marine hero Monkey D. Garp,[30] the
-            sworn brother of the late "Fire Fist" Portgas D. Ace and Revolutionary Chief-of-Staff Sabo, and the foster
+        <p class="lead text-secondary">Born in Foosha Village, Luffy accidentally ate the Gomu Gomu no Mi at age 7,
+            which
+            turned his
+            body into
+            rubber.[28] He met "Red-Haired" Shanks, who gave Luffy the very Straw Hat that has become Luffy's
+            signature
+            accessory, having gifted it to the boy as part of a promise for them to meet again someday. Luffy is the
+            son
+            of the Revolutionary leader Monkey D. Dragon,[29] the grandson of the Marine hero Monkey D. Garp,[30]
+            the
+            sworn brother of the late "Fire Fist" Portgas D. Ace and Revolutionary Chief-of-Staff Sabo, and the
+            foster
             son of Curly Dadan. He is one of the few people in the world who carries the Will of D.</p>
+        <figure class="text-end">
+            <blockquote class="blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe natus maxime accusantium
+                    laborum?
+                    Deserunt atque assumenda consequuntur repellat veniam enim laudantium dolorum quo recusandae
+                    blanditiis
+                    debitis excepturi, aperiam aliquid delectus?</p>
+                <footer class="blockquote-footer">Mr. Lorem Ipsum</footer>
+            </blockquote>
+        </figure>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
