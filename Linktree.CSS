@@ -1,0 +1,47 @@
+body {
+    background: #8ecae6;
+    background: linear-gradient(0deg,
+            #219ebc 0%, #ffb703, #023047);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.profileImage {
+
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+
+.rockRobot {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.robotname {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #9b2226;
+    font-size: 1.5rem;
+}
+
+a {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid white;
+    background-color: #ffb703;
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    margin: 30px;
+    padding: 15px;
+}
+
+a:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 10px 2px black;
+}
