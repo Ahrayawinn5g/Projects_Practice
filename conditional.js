@@ -1,13 +1,12 @@
 let random = Math.random();
 if (random < 0.5) {
     console.log("YOUR NUMBER IS LESS THAN 0.5!!")
-    console.log(random);
+} else {
+    console.log("YOUR NUMBER IS GREATER (OR EQUAL) THAN 0.5!!")
 }
+console.log(random);
 
-if (random >= 0.5) {
-    console.log("YOUR NUMBER IS MORE THAN 0.5!!")
-    console.log(random);
-}
+
 
 const dayOfWeek = "Sunday";
 
@@ -17,6 +16,8 @@ if (dayOfWeek === 'Monday') {
     console.log("cheers to the weekend mate")
 } else if (dayOfWeek === 'Sunday') {
     console.log("noooo the weekend is almost over")
+} else {
+    console.log("MEH")
 }
 
 const age = 65;
