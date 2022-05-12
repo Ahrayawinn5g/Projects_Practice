@@ -12,3 +12,7 @@
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
+
+for (let song = 1; song <= 6; song++) {
+    console.log("Da ba dee da ba daa");
+}
