@@ -11,9 +11,9 @@ const strawhats = [
     "Jinbe"
 ]
 
-// for (let i = 0; i < strawhats.length; i++) {
-//     console.log(i, strawhats[i])
-// }
+for (let i = 0; i < strawhats.length; i++) {
+    console.log(i, strawhats[i])
+}
 
 // if we wanted to go in reverse 
 for (let i = strawhats.length - 1; i >= 0; i--) {
