@@ -27,6 +27,7 @@ const seatingChart = [
 //     console.log(seatingChart[s])
 // }
 
+// print's out each individual name as well as the row they are assigned to 
 for (let s = 0; s < seatingChart.length; s++) {
     const row = seatingChart[s];
     console.log(`ROW #${s + 1}`)
