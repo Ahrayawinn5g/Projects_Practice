@@ -35,3 +35,10 @@ for (let s = 0; s < seatingChart.length; s++) {
         console.log(row[j])
     }
 }
+
+// an easier way to write this using For..Of
+for(let row of seatingChart){
+    for(let student of row){
+        console.log(student)
+    }
+}
